@@ -1,6 +1,14 @@
 # Fatigue-Test
 
-Ontology for the Vickers LCF testing according to the DIN_EN_ISO_12106 standard
+Fatigue Test Ontology (FTO) has developed for representing the fatigue testing process, testing equipment requirements, test pieces charactristics, and related testing parameters and their measurement procedure according to DIN EN ISO 12106 standard.
+
+Versions info:
+
+V1 developed using BFO+CCO top-level ontologies.
+
+V2 developed using PROVO+PMDco top-level ontologies.
+
+V3 developed using BFO+IOF top-level ontologies.
 
 ## Getting started
 
