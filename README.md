@@ -1,4 +1,4 @@
-# LCF-Test
+# Fatigue-Test
 
 Ontology for the Vickers LCF testing according to the DIN_EN_ISO_12106 standard
 
