@@ -1,0 +1,72 @@
+prefixes: {bfo: 'http://purl.obolibrary.org/obo/', csvw: 'http://www.w3.org/ns/csvw#',
+  data: 'https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex2/LCF_C_02_-_Copy-metadata.json/',
+  method: 'https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/FTO3.0.2.ttl/',
+  owl: 'http://www.w3.org/2002/07/owl#', rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+  rdfs: 'http://www.w3.org/2000/01/rdf-schema#', xml: 'http://www.w3.org/XML/1998/namespace',
+  xsd: 'http://www.w3.org/2001/XMLSchema#'}
+base: http://purl.matolab.org/mseo/mappings/
+sources:
+  data_entities: {access: 'https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex2/LCF_C_02_-_Copy-metadata.json',
+    iterator: '$..[*]', referenceFormulation: jsonpath}
+use_template_rowwise: 'false'
+mappings:
+  CycleToFractureValue:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(label)]
+      - [str2, 'Zyklen bei Versuchsende            ']
+    po:
+    - ['http://purl.obolibrary.org/obo/RO_0010002', 'method:CycleToFractureValue~iri']
+  TestTemperatureValue:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(label)]
+      - [str2, 'Prüftemperatur PT                  ']
+    po:
+    - ['http://purl.obolibrary.org/obo/RO_0010002', 'method:TestTemperatureValue~iri']
+  TestDateIdentifier:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(label)]
+      - [str2, 'Versuchs-Datum                     ']
+    po:
+    - ['http://purl.obolibrary.org/obo/RO_0010002', 'method:TestDateIdentifier~iri']
+  TestOperatorIdentifier:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(label)]
+      - [str2, 'Bearbeiter                         ']
+    po:
+    - ['http://purl.obolibrary.org/obo/RO_0010002', 'method:TestOperatorIdentifier~iri']
+  TestPieceComposition:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(label)]
+      - [str2, 'Werkstoff                          ']
+    po:
+    - ['http://purl.obolibrary.org/obo/RO_0010002', 'method:TestPieceComposition~iri']
+  TestPieceIndenter:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(label)]
+      - [str2, 'Probenbezeichnung                  ']
+    po:
+    - ['http://purl.obolibrary.org/obo/RO_0010002', 'method:TestPieceIndenter~iri']
