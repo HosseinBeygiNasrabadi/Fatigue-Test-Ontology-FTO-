@@ -1853,7 +1853,7 @@ fto:TestStandard rdf:type owl:NamedIndividual ,
                                             fto:ChoiceOfTheMethodAndRate ,
                                             fto:Gripping ,
                                             fto:SettingTheForceZeroPoint ;
-                 iof:hasSimpleExpressionValue "DIN EN ISO 6506-1:2015-02"^^xsd:string .
+                 iof:hasSimpleExpressionValue "DIN EN ISO 12106:2017"^^xsd:string .
 
 
 ###  https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/FTO3.0.2.ttl/TestStrain
