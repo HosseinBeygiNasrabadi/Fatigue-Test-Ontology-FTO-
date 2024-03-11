@@ -1,0 +1,760 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "oa": "http://www.w3.org/ns/oa#",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "qudt": "http://qudt.org/schema/qudt/",
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "prov": "http://www.w3.org/ns/prov#",
+            "csv": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/"
+        }
+    ],
+    "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis",
+    "@type": "http://www.w3.org/ns/csvw#TableGroup",
+    "notes": [
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Versuchsbezeichnung3",
+            "label": "Versuchsbezeichnung                ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 3,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "LCF-Versuch"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/VersuchNach4",
+            "label": "Versuch nach                       ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 4,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "ISO 12106"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Projekt5",
+            "label": "Projekt                            ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 5,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "Vh 5204"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Probenbezeichnung6",
+            "label": "Probenbezeichnung                  ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 6,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "G_21"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Werkstoff7",
+            "label": "Werkstoff                          ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 7,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "CuNi6Sn4"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Anisotropie8",
+            "label": "Anisotropie                        ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 8,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Waermebehandlung9",
+            "label": "W\u00e4rmebehandlung                    ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 9,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/VersuchsDatum10",
+            "label": "Versuchs-Datum                     ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 10,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": "2024-01-23T00:00:00",
+                        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Bearbeiter11",
+            "label": "Bearbeiter                         ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 11,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "NN"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Umgebungsmedium12",
+            "label": "Umgebungsmedium                    ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 12,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "Luft"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/ProbenquerschnittBeiRt13",
+            "label": "Probenquerschnitt bei RT           ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 13,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 19.353,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    },
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MilliM2",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Probenerwaermung14",
+            "label": "Probenerw\u00e4rmung                    ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 14,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/PrueftemperaturPt15",
+            "label": "Pr\u00fcftemperatur PT                  ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 15,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 21,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/DEG_C",
+                        "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Belastungsgeschwindigkeit16",
+            "label": "Belastungsgeschwindigkeit          ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 16,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "%/s"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/MaxBelastung17",
+            "label": "max Belastung                      ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 17,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.3,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    },
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/PERCENT",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/MinBelastung18",
+            "label": "min Belastung                      ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 18,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": -0.3,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    },
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/PERCENT",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/HaltezeitImMaximum19",
+            "label": "Haltezeit im Maximum               ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 19,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/HaltezeitImMinimum20",
+            "label": "Haltezeit im Minimum               ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 20,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/BelastungsverhaeltnisR21",
+            "label": "Belastungsverh\u00e4ltnis R             ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 21,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": -1,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/Zykluszeit22",
+            "label": "Zykluszeit                         ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 22,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/SEC",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/ZyklusNf23",
+            "label": "Zyklus Nf                          ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 23,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "10%"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 27813,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/ZyklenBeiVersuchsende24",
+            "label": "Zyklen bei Versuchsende            ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 24,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 30000,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/ProbeGebrochen25",
+            "label": "Probe gebrochen                    ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 25,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "ja"
+                }
+            ]
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/LageAnrissBruch26",
+            "label": "Lage Anriss/Bruch                  ",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 26,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "innerhalb Messl\u00e4nge"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1",
+            "url": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis",
+            "dialect": {
+                "delimiter": "\\t",
+                "skipRows": 31,
+                "headerRowCount": 2,
+                "encoding": "latin-1"
+            },
+            "tableSchema": {
+                "columns": [
+                    {
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-GID",
+                        "name": "GID",
+                        "titles": [
+                            "GID",
+                            "Generic Identifier"
+                        ],
+                        "datatype": "string",
+                        "required": true,
+                        "suppressOutput": true,
+                        "@type": "Column"
+                    },
+                    {
+                        "titles": [
+                            "Zyklus",
+                            "Nr",
+                            "Zyklus"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-Zyklus",
+                        "name": "Zyklus",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Spannung-Max",
+                            "MPa",
+                            "SpannungMax"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-SpannungMax",
+                        "name": "SpannungMax",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/MegaPA",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Spannung-Min",
+                            "MPa",
+                            "SpannungMin"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-SpannungMin",
+                        "name": "SpannungMin",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/MegaPA",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Dehnung-Max",
+                            "%",
+                            "DehnungMax"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-DehnungMax",
+                        "name": "DehnungMax",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/PERCENT",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Dehnung-Min",
+                            "%",
+                            "DehnungMin"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-DehnungMin",
+                        "name": "DehnungMin",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/PERCENT",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Weg-Max",
+                            "mm",
+                            "WegMax"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-WegMax",
+                        "name": "WegMax",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/MilliM",
+                            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Weg-Min",
+                            "mm",
+                            "WegMin"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-WegMin",
+                        "name": "WegMin",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/MilliM",
+                            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    }
+                ],
+                "primaryKey": "GID",
+                "aboutUrl": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-1-gid-{GID}"
+            }
+        },
+        {
+            "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2",
+            "url": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis",
+            "dialect": {
+                "delimiter": "\\t",
+                "skipRows": 145,
+                "headerRowCount": 2,
+                "encoding": "latin-1"
+            },
+            "tableSchema": {
+                "columns": [
+                    {
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-GID",
+                        "name": "GID",
+                        "titles": [
+                            "GID",
+                            "Generic Identifier"
+                        ],
+                        "datatype": "string",
+                        "required": true,
+                        "suppressOutput": true,
+                        "@type": "Column"
+                    },
+                    {
+                        "titles": [
+                            "Zeit",
+                            "s",
+                            "Zeit"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-Zeit",
+                        "name": "Zeit",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/SEC",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Zyklus",
+                            "Nr",
+                            "Zyklus"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-Zyklus",
+                        "name": "Zyklus",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Spannung",
+                            "MPa",
+                            "Spannung"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-Spannung",
+                        "name": "Spannung",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/MegaPA",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Dehnung",
+                            "%",
+                            "Dehnung"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-Dehnung",
+                        "name": "Dehnung",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/PERCENT",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "Weg",
+                            "mm",
+                            "Weg"
+                        ],
+                        "@id": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-Weg",
+                        "name": "Weg",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/MilliM",
+                            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                        },
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    }
+                ],
+                "primaryKey": "GID",
+                "aboutUrl": "https://gitlab.com/kupferdigital/process-graphs/lcf-test/-/raw/main/ex5/LCF_G_21.lis/table-2-gid-{GID}"
+            }
+        }
+    ],
+    "prov:wasGeneratedBy": {
+        "@id": "http://ckan_csvtocsvw:5001/api/annotate?return_type=json-ld",
+        "@type": "prov:Activity",
+        "prov:wasAssociatedWith": {
+            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.3.0",
+            "rdfs:label": "CSVtoCSVWv1.3.0",
+            "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
+            "@type": "prov:SoftwareAgent"
+        }
+    },
+    "prov:generatedAtTime": {
+        "@value": "2024-03-11T12:09:24.504680",
+        "@type": "xsd:dateTime"
+    }
+}
