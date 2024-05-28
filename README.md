@@ -4,8 +4,6 @@ Fatigue Test Ontology (FTO) has developed for representing the fatigue testing p
 
 Versions info:
 
-V1 developed using BFO+CCO top-level ontologies.
-
 V2 developed using PROVO+PMDco top-level ontologies.
 
 V3 developed using BFO+IOF top-level ontologies.
